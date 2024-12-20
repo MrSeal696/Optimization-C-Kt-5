@@ -17,7 +17,7 @@
 Фильтруем числа от 1 до 1 000 000, оставляя только те, которые делятся на 3 и 5.
 
 Код
-
+```
 using System;
 using System.Linq;
 
@@ -33,7 +33,7 @@ class Program
         Console.WriteLine($"Найдено {filteredNumbers.Count()} чисел, которые делятся на 3 и 5.");
     }
 }
-
+```
 
 
 
@@ -51,7 +51,7 @@ class Program
 Считаем сумму квадратов всех чисел от 1 до 1 000 000 с использованием PLINQ.
 
 Код
-
+```
 using System;
 using System.Linq;
 
@@ -68,7 +68,7 @@ class Program
     }
 }
 
-
+```
 Результат выполнения
 
 ![изображение](https://github.com/user-attachments/assets/790d04bb-5874-4010-84af-d3103283656e)
@@ -83,7 +83,7 @@ class Program
 Преобразуем строки в верхний регистр и фильтруем строки по длине (больше 7 символов).
 
 Код
-
+```
 using System;
 using System.Linq;
 
@@ -102,7 +102,7 @@ class Program
         Console.WriteLine($"Обработано {processedStrings.Count} строк.");
     }
 }
-
+```
 
 Результат выполнения
 
@@ -118,7 +118,7 @@ class Program
 Находим максимальное число от 1 до 1 000 000, которое делится на 7.
 
 Код
-
+```
 using System;
 using System.Linq;
 
@@ -134,7 +134,7 @@ class Program
         Console.WriteLine($"Максимальное число, делящееся на 7: {maxDivisibleBy7}");
     }
 }
-
+```
 
 Результат выполнения
 
@@ -150,7 +150,7 @@ class Program
 Группируем числа от 1 до 1 000 000 по остаткам от деления на 10.
 
 Код
-
+```
 using System;
 using System.Linq;
 
@@ -171,7 +171,7 @@ class Program
         }
     }
 }
-
+```
 
 Результат выполнения
 ![изображение](https://github.com/user-attachments/assets/61fb7479-1fe6-4f46-8f75-e7b2908b249d)
@@ -186,7 +186,7 @@ class Program
 Создаём сложные объекты из чисел от 1 до 1 000 000, рассчитываем их свойства и сохраняем в список.
 
 Код
-
+```
 using System;
 using System.Linq;
 
@@ -214,7 +214,7 @@ class Program
         Console.WriteLine($"Создано {objects.Count} объектов.");
     }
 }
-
+```
 
 Результат выполнения
 
